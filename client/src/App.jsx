@@ -13,7 +13,7 @@ const App = () => {
       <Header />
       <div style={{ display: "flex" }}>
         <Sidebar />
-        <div style={{ flex: 1, marginLeft:"50px", padding: "20px" }}>
+        <div style={{  marginLeft:"50px", padding: "20px" }}>
           <Routes>
             <Route path="/" component={<Dashborad />} />
             <Route path="/online" component={<Online />} />

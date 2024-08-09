@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDashboard, MdFlight, MdSchool, MdEngineering, MdBusiness, MdAccountBalance } from 'react-icons/md'; // Importing new icons
+import { MdDashboard, MdFlight, MdSchool, MdEngineering, MdBusiness, MdAccountBalance } from 'react-icons/md'; 
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
