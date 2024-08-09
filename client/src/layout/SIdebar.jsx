@@ -8,7 +8,7 @@ const Sidebar = () => {
       <div className='sidebar-header'>
         <MdAccountBalance className='icon' />
         <Link to="/" className='sidebar-link'>
-          <span>Wadi College</span>
+          <span style={{color:"black"}}>Wadia College</span>
         </Link>
       </div>
       <div className='sidebar'>

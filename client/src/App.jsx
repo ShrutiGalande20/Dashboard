@@ -6,6 +6,7 @@ import Dashborad from "./pages/Dashborad";
 import Mba from "./pages/Mba";
 import Total from "./pages/Total";
 import Online from "./pages/Online";
+import Engineering from "./pages/Engineering";
 
 const App = () => {
   return (
@@ -13,12 +14,14 @@ const App = () => {
       <Header />
       <div style={{ display: "flex" }}>
         <Sidebar />
-        <div style={{  marginLeft:"50px", padding: "20px" }}>
+        <div style={{ height:"50rem",  width:"100%",marginTop:"20px" ,marginLeft:"40px", padding: "20px" , color:"black" }}>
           <Routes>
-            <Route path="/" component={<Dashborad />} />
-            <Route path="/online" component={<Online />} />
-            <Route path="/total" component={<Total />} />
-            <Route path="/mba" component={<Mba />} />
+            <Route path="/" element={<Dashborad />} />
+            <Route path="/online" element={<Online />} />
+            <Route path="/total" element={<Total />} />
+            <Route path="/mba" element={<Mba />} />
+            <Route path="/eng" element={<Engineering />} />
+
           </Routes>
         </div>
       </div>
