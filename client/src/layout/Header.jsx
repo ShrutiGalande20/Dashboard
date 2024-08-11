@@ -1,5 +1,6 @@
 import React from 'react';
 import {  FaUserCircle } from 'react-icons/fa'; 
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
@@ -9,7 +10,9 @@ export const Header = () => {
         <span className="header-title">Wadi College</span>
       </div>
       <div className="profile-icon">
+        <Link to="/login">
         <FaUserCircle className="icon" />
+        </Link>
       </div>
     </div>
   );

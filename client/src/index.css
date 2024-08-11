@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -53,7 +57,7 @@
 
 .sidebar {
   position: relative;
-  background-color: #7abbfc; 
+  background-color: rgb(3 105 161);
   height: 100vh;
   width: 16%;
   margin-top: 64px;
@@ -71,6 +75,7 @@
 
 .sidebar-item:hover {
   background-color: #acbac9; 
+  color: black;
   border-radius: 4px;
 }
 

@@ -7,6 +7,8 @@ import Mba from "./pages/Mba";
 import Total from "./pages/Total";
 import Online from "./pages/Online";
 import Engineering from "./pages/Engineering";
+import Login from "./componets/Login";
+import Register from "./componets/Register";
 
 const App = () => {
   return (
@@ -21,6 +23,9 @@ const App = () => {
             <Route path="/total" element={<Total />} />
             <Route path="/mba" element={<Mba />} />
             <Route path="/eng" element={<Engineering />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/online" element={<Online />} />
 
           </Routes>
         </div>
