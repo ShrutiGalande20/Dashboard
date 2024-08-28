@@ -6,6 +6,8 @@ const router = require("../routers/addRoutes");
 const db = require("../config/db");
 
 dotenv.config(); 
+
+// mongoconnection
 db();
 
 app.use(cors());
